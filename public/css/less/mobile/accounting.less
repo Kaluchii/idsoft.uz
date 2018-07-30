@@ -1,0 +1,152 @@
+@media screen and (max-width: 1024px){
+  .employs-block{
+    padding: 40px 40px 25px 40px;
+  }
+  .big-image{
+    padding: 50px 40px 0 40px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .accounting .advantages-title{
+    padding: 0 40px 0 40px;
+  }
+}
+@media screen and (max-width: 900px){
+  .employs-block{
+    .employs{
+      .employ-item{
+        .img-wrap{
+          img{
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .employs-block{
+    .employs{
+      flex-direction: column;
+      align-items: flex-start;
+      .employ-item{
+        margin-bottom: 60px;
+        .img-wrap{
+          img{
+            max-width: 100%;
+          }
+        }
+        .about-wrap{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .tarifs{
+    padding:40px 20px 25px;
+    .page-title{
+      .title{
+        text-align: center;
+      }
+    }
+    .tarif-block{
+      display: flex;
+      flex-direction: column;
+      .tarif-item{
+        margin: 0 0 20px 0;
+        padding: 30px;
+        box-sizing: border-box;
+        width: 100%;
+        .tarif-name{
+          font-size: 32px;
+          font-weight: normal;
+          color: #333333;
+          line-height: 1.2em;
+          padding-bottom: 30px;
+          margin: 0;
+        }
+        ul.tarifs{
+          padding: 0;
+          .item{
+            line-height: 1.5em;
+            padding-bottom: 10px;
+            a{
+              .link(@link-color,#7793A2,@hover-color,@hover-border);
+              font-weight: bold;
+            }
+            .cost{
+              color: #666666;
+            }
+          }
+        }
+        .price {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 600px){
+  .stage{
+    padding: 30px;
+    background: #fef6df;
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.45);
+    min-width: 100%;
+    box-sizing: border-box;
+    p {
+      text-align: center;
+      font-size:14px;
+      line-height: 1.5em;
+      color: #333333;
+      .year {
+        padding-top: 40px;
+        font-size:120px;
+        font-weight:bold;
+        color: #333333;
+        display: block;
+        line-height: 70px;
+      }
+      .year-small {
+        line-height: 70px;
+        font-size:48px;
+        display: block;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+  }
+  .big-image{
+    padding: 50px 20px 0 20px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .employs-block{
+    padding: 40px 20px 25px 20px;
+  }
+  .accounting .advantages-title{
+    .block-title{
+      padding: 50px 0 30px;
+    }
+    padding: 0 20px 0 20px;
+  }
+  .accounting {
+    .block-title{
+      font-size: 32px;
+      padding: 50px 0 30px;
+    }
+  }
+}
+@media screen  and (max-width: 500px){
+  .tarifs {
+    .tarif-block {
+      .tarif-item {
+        .tarif-name {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

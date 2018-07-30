@@ -1,0 +1,115 @@
+.title-image {
+  img {
+    max-width: 100%;
+  }
+}
+.client-logo {
+  img {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+.main-content-grid {
+  display: flex;
+  padding: 50px 40px 10px 100px;
+  .col-1-2 {
+    &:first-child {
+      width: 75%
+    }
+    &:last-child {
+      width: 25%
+    }
+    .recall {
+      padding-right: 60px;
+      margin-top: 50px;
+      line-height: 1.5em;
+      .recall-title {
+        font-weight: normal;
+        color: #333333;
+      }
+      .recall-text {
+        margin-top: 30px;
+        font-style: italic;
+        color: #666666;
+        &::before {
+          content: '«‎';
+        }
+        &::after {
+          content: '»';
+        }
+      }
+      .who-responded {
+        margin-top: 30px;
+        .col-1-2 {
+          display: inline-block;
+          width: auto;
+          vertical-align: top;
+          &:nth-child(2) {
+            padding: 5px 0 0 20px;
+          }
+          .name {
+            color: #333333;
+            font-weight: bold;
+          }
+          .position {
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+  .text-block {
+    padding-right: 60px;
+  }
+  .other-places {
+    margin: 40px 0 60px;
+    .menu-title {
+      font-weight: bold;
+      color: #333333;
+      padding-bottom: 15px;
+    }
+    .places-list {
+      .item {
+        padding-bottom: 15px;
+        a {
+          .link(@link-color, @link-border, @hover-color, @hover-border);
+          &.bold {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .recommend-letter {
+    a {
+      .image-wrap {
+        box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.45);
+        &.frame {
+          background: url(../img/frame.png) no-repeat left top;
+          padding: 10px 10px 6px 10px;
+          display: inline-block;
+          margin-bottom: 15px;
+        }
+      }
+      p {
+        span {
+          .link(@link-color, @link-border, @hover-color, @hover-border);
+          font-weight: bold;
+          line-height: 1.5em;
+        }
+        max-width: 150px;
+      }
+      &:hover {
+        p {
+          span {
+            .link(@hover-color, @hover-border, @hover-color, @hover-border);
+          }
+        }
+      }
+    }
+  }
+}
+
+.block-separator {
+  padding: 50px 100px 10px 100px;
+}

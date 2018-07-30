@@ -1,0 +1,44 @@
+@import 'core/variables';
+@import 'core/mixins';
+
+
+@import "mobile/header";
+
+@import "mobile/index";
+@import "mobile/catalog";
+@import "mobile/category";
+@import "mobile/product";
+@import "mobile/automatic";
+@import "mobile/accounting";
+@import "mobile/clients";
+@import "mobile/client";
+@import "mobile/about";
+
+@import "mobile/footer";
+
+@media screen and (max-width: 700px){
+  .rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    .head-reiting{
+      margin: 0 20px;
+      min-width: 230px;
+      text-align: center;
+    }
+    .raiting-star{
+      margin: 0 20px;
+      min-width: 120px;
+      text-align: center;
+      padding-left: 0;
+    }
+    .totalvotes{
+      padding-left: 0;
+      margin: 0 20px;
+      text-align: center;
+      min-width: 230px;
+    }
+  }
+}

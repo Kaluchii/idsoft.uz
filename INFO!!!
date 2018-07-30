@@ -1,0 +1,14 @@
+Updating dependencies (including require-dev)
+  - Installing symfony/css-selector (v3.4.9)
+    Downloading: 100%
+
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.1)
+    Downloading: 100%
+
+  - Installing phpoffice/phpexcel (1.8.1)
+    Downloading: 100%
+
+  - Installing maatwebsite/excel (2.1.10)
+    Downloading: 100%
+
+Закинуть последнюю версию файла composer.json

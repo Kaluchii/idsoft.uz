@@ -1,0 +1,315 @@
+@media screen and (max-width: 1024px) {
+  .main-content-block {
+    padding: 50px 40px 0 40px;
+    .col-1-2 {
+      &:first-child {
+        .text-block {
+          padding-right: 30px;
+        }
+      }
+      &:last-child {
+        .capability {
+          margin-left: 0;
+          padding: 30px;
+          background: #fef6df;
+          box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.45);
+          h4 {
+            font-size: 16px;
+            color: #333333;
+          }
+          p {
+            font-size: 16px;
+            line-height: 1.5em;
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+
+  .second-content {
+    padding: 50px 40px 0 40px;
+  }
+
+  .block-separator {
+    padding: 0 40px 0 40px;
+  }
+
+  .equipment-block {
+    .block-title {
+      padding: 0 40px 0 40px;
+      .sub-title {
+        padding: 55px 0 40px;
+        text-align: left;
+      }
+      .products-list {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .product-item {
+          max-width: 25%;
+          width: 25%;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-content-block {
+    padding: 50px 40px 0 40px;
+    flex-direction: column-reverse;
+    .col-1-2 {
+      &:first-child {
+        .text-block {
+          padding-right: 30px;
+        }
+      }
+      &:last-child {
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: none;
+        .capability {
+          margin-top: 0 !important;
+        }
+        .right-menu-block {
+          width: 100%;
+          padding: 0 0 10px 0;
+          margin-right: 30px;
+          .right-menu {
+            max-width: 250px;
+            min-width: 250px;
+            margin-left: -10px;
+            .menu-item{
+              &.iiko-popup{
+                &:hover{
+                  .left-popup{
+                    display: block;
+                    width: 310px;
+                    box-sizing: border-box;
+                    left:0;
+                    padding: 5px;
+                    top:30px;
+                    &:after {
+                      content: "";
+                      border: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .second-content {
+    padding: 50px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .col-1-2 {
+      &:first-child {
+        .text-block {
+          padding-right: 30px;
+        }
+      }
+      &:last-child {
+        padding-top: 40px;
+        .advantages-block {
+          display: flex;
+          position: relative;
+          left: -20px;
+          width: 20%;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+  .equipment-block {
+    .block-title {
+      padding: 0 40px 0 40px;
+      .sub-title {
+        padding: 55px 0 40px;
+        text-align: left;
+      }
+      .products-list {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .product-item {
+          max-width: 33.3333333%;
+          width: 33.3333333%;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .cost-block {
+    .cost {
+      font-size: 36px;
+      .sale {
+        font-size: 16px;
+        left: 45px;
+        top: -12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px){
+  .page-title-image {
+    position: relative;
+    .image-wrap {
+      img {
+        max-width: 100%;
+        object-fit: cover;
+        min-height: 250px;
+      }
+    }
+    .page-title {
+      top: 20px;
+      color: #ffffff;
+      text-align: center;
+      width: calc(~"100% - 30px");
+      left: 15px;
+      font-size: 24px;
+      font-weight: normal;
+      position: absolute;
+    }
+  }
+}
+@media screen and (max-width: 600px){
+  .main-content-block {
+    padding: 50px 20px 0 20px;
+    flex-direction: column-reverse;
+    .col-1-2 {
+      &:first-child {
+        .text-block {
+          padding-right: 30px;
+        }
+      }
+      &:last-child {
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+
+        .right-menu-block {
+          width: 100%;
+          margin-right: 0;
+          .right-menu {
+            width: auto;
+            max-width: 100%;
+            min-width: 250px;
+            margin-left: -10px;
+          }
+        }
+      }
+    }
+  }
+  .second-content {
+    padding: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .col-1-2 {
+      &:first-child {
+        .text-block {
+          padding-right: 30px;
+        }
+      }
+      &:last-child {
+        padding-top: 40px;
+        .advantages-block {
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          left: -20px;
+          width: 100%;
+          justify-content: space-between;
+          .text-wrap{
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .equipment-block {
+    .block-title {
+      padding: 0 20px 0 20px;
+      .sub-title {
+        padding: 55px 0 40px;
+        text-align: left;
+      }
+      .products-list {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .product-item {
+          max-width: 50%;
+          width: 50%;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .cost-block {
+    .cost {
+      font-size: 28px;
+      .sale {
+        font-size: 16px;
+        left: 60px;
+        top: -12px;
+      }
+    }
+  }
+  .credit {
+    p {
+      max-width: 700px;
+      padding: 0 30px;
+      margin: 0 auto;
+      color: #333333;
+      line-height: 1.5em;
+      strong {
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px){
+  .cost-block {
+    .cost {
+      font-size: 24px;
+      .sale {
+        font-size: 14px;
+        left: 45px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px){
+  .equipment-block {
+    .block-title {
+      padding: 0 20px 0 20px;
+      .sub-title {
+        padding: 55px 0 40px;
+        text-align: left;
+      }
+      .products-list {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .product-item {
+          width: 100%;
+          max-width: 100%;
+          margin-bottom: 40px;
+
+        }
+      }
+    }
+  }
+}

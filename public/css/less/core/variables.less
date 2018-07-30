@@ -1,0 +1,163 @@
+@link-color: #006699;
+@link-border: #b2d1e0;
+@hover-color: #cc0000;
+@hover-border: #f0b2b2;
+@b-hover-color: #750000;
+@b-hover-border: #a77272;
+
+@white-link-color: #ffffff;
+@white-link-border: #4d94b8;
+@white-hover-color: #ddba71;
+@white-hover-border: #4d858a;
+
+@black-link: #333333;
+@black-border: #cccccc;
+
+@yellow: #fed054;
+@blue: #006699;
+
+// Fonts
+@arial: "Arial", sans-serif;
+
+@title: 48px;
+@subtitle: 24px;
+@regular: 16px;
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: @arial;
+}
+
+body {
+  background: #25394d;
+  overflow-x: hidden;
+}
+
+.top {
+  color: #cccccc;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: @regular;
+  padding: 10px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 320px;
+}
+
+.button {
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: #1491c4;
+    cursor: pointer;
+  }
+  &.load{
+    background: url(../img/default.svg) center no-repeat,#0078bf !important;
+    background-size: 16px 16px;
+    color: transparent !important;
+  }
+  color: #ffffff;
+  background: #0078bf;
+  padding: 0 24px;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+}
+
+.block-separator {
+  .separator {
+    display: block;
+    height: 2px;
+    background: #e5e5e5;
+    width: 100%;
+    &.dashed {
+      background: none;
+      border-bottom: 1px dashed #e5e5e5;
+    }
+  }
+}
+
+.dashed-bottom {
+  border-bottom: 2px dashed #006699;
+}
+
+.dashed-bottom-yellow {
+  border-bottom: 2px dashed #006699;
+}
+
+.bx-controls.bx-has-pager.bx-has-controls-direction {
+  display: flex;
+  justify-content: center;
+}
+
+a.bx-pager-link {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dbe5ec;
+  display: block;
+  &.active {
+    background: @yellow;
+  }
+}
+
+.bx-pager.bx-default-pager {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  min-width: 60px;
+  margin: 0 auto;
+}
+
+.bx-pager-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.icon-group {
+  position: absolute;
+  letter-spacing: 0;
+  i {
+    margin: 0 1px;
+    font-size: 0;
+    letter-spacing: 0;
+
+    width: 16px;
+    height: 16px;
+
+    display: inline-block;
+    &.wpp {
+      background: url(../img/wpp.png) no-repeat;
+      background-size: 16px 16px;
+      &:hover {
+        background: url(../img/wpp_h.png) no-repeat;
+        background-size: 16px 16px;
+      }
+    }
+    &.tel {
+      background: url(../img/tel.png) no-repeat;
+      background-size: 16px 16px;
+      &:hover {
+        background: url(../img/tel_h.png) no-repeat;
+        background-size: 16px 16px;
+      }
+    }
+    &.vib {
+      background: url(../img/vib.png) no-repeat;
+      background-size: 16px 16px;
+      &:hover {
+        background: url(../img/vib_h.png) no-repeat;
+        background-size: 16px 16px;
+      }
+    }
+  }
+}
+

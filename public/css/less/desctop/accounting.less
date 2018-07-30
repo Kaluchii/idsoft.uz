@@ -1,0 +1,239 @@
+.stage{
+  padding: 30px;
+  background: url(../img/hole.jpg) no-repeat 10px 0, url(../img/hole.jpg) no-repeat 265px 0, #fef6df;
+  box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.45);
+  min-width: 240px;
+  p {
+    text-align: center;
+    font-size:14px;
+    line-height: 1.5em;
+    color: #333333;
+    .year {
+      padding-top: 40px;
+      font-size:120px;
+      font-weight:bold;
+      color: #333333;
+      display: block;
+      line-height: 70px;
+    }
+    .year-small {
+      line-height: 70px;
+      font-size:48px;
+      display: block;
+      color: #333333;
+      font-weight: bold;
+    }
+  }
+}
+.employs-block{
+  padding:40px 100px 25px 100px;
+
+  .block-title{
+    padding: 50px 0 30px;
+    text-align: left;
+  }
+  .employs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    .employ-item{
+      .img-wrap{
+        padding-bottom: 20px;
+        img{
+
+        }
+      }
+      .name-wrap{
+        padding-bottom: 20px;
+        .name{
+          color: #333333;
+          font-size:24px;
+          padding-bottom: 5px;
+        }
+        .profession{
+          font-size:14px;
+          color: #333333;
+          font-style: italic;
+        }
+      }
+      .about-wrap{
+        max-width: 400px;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+.big-image{
+  display: none;
+  padding: 50px 40px 0px 100px;
+  img{
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.45);
+    display: block;
+    margin-bottom: 40px;
+  }
+  .image-name{
+    font-size:14px;
+    color: #333333;
+    font-style: italic;
+  }
+}
+.accounting{
+  .advantages-title {
+   padding: 0px 40px 0px 100px;
+   .block-title {
+     text-align: left;
+     padding: 50px 0 30px;
+   }
+  }
+  .page-title {
+    margin: 0 0 0 0;
+    padding: 5px 20px 30px;
+    font-size: @title;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+  }
+}
+.second-content {
+  padding: 0px 40px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  .col-1-2 {
+    &:first-child {
+      .text-block {
+        padding-right: 80px;
+      }
+    }
+    &:last-child {
+      padding-top: 0px;
+      .advantages-block {
+        .block-item {
+          padding-bottom:80px;
+          &:first-child {
+            .img-wrap {
+              height: 160px;
+            }
+          }
+          .img-wrap {
+            position: relative;
+            height: 160px;
+            width: 260px;
+            padding-bottom: 15px;
+            img {
+
+              position: absolute;
+            }
+          }
+          .text-wrap {
+            padding-left: 25px;
+            position: relative;
+            z-index: 10;
+            p {
+              line-height: 1.5em;
+              color: #666666;
+              strong {
+                font-weight: bold;
+              }
+              a {
+                .link(@link-color, @link-border, @hover-color, @hover-border);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.tarifs{
+  padding:40px 10px 25px;
+  .page-title{
+    .block-title{
+      padding: 50px 0 30px;
+      padding-top: 0;
+      text-align: center;
+    }
+  }
+  .tarif-block{
+    display: flex;
+
+    .tarif-item{
+      background: #f2f3f4;
+      margin: 0 10px;
+      padding: 30px;
+      width: 50%;
+      .tarif-name{
+        font-size: 32px;
+        font-weight: normal;
+        color: #333333;
+        line-height: 1.2em;
+        padding-bottom: 30px;
+        margin: 0;
+      }
+      ul.tarifs{
+        padding: 0;
+        .item{
+          line-height: 1.5em;
+          padding-bottom: 10px;
+          a{
+            padding-bottom: 1px;
+            .link(@link-color,#7793A2,@hover-color,@hover-border);
+            font-weight: bold;
+          }
+          .cost{
+            color: #666666;
+          }
+        }
+      }
+      .price {
+        margin-top: -20px;
+        font-size: 48px;
+        color: #222;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.tarif{
+  .main-content-block{
+    padding-bottom: 100px;
+    .col-1-2{
+      &:first-child{
+      max-width: 700px;
+      }
+    }
+  }
+}
+
+.inf{
+  .main-content-block{
+    padding-bottom: 100px;
+    .col-1-2{
+      &:first-child{
+        max-width: 700px;
+      }
+      &:last-child{
+        .right-menu-block{
+          .right-menu{
+            max-width: 260px;
+            .menu-item{
+              &.active {
+                background: none;
+                padding: 0;
+                .orange-wrap{
+                  background: @yellow;
+                  border-radius: 15px;
+                  display: inline-block;
+                  padding: 1px 10px;
+                }
+              }
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+  .block-title {
+    padding-top: 5px;
+  }
+}
