@@ -329,63 +329,13 @@ class CatalogController extends Controller
     }
 
 
-    /* Wipon */
-    public function getWipon()
+    /* Rosta */
+    public function getRosta()
     {
         $rating = new Rating();
-        $rating = $rating->getRatingView('/wipon');
-        $wipon = $this->queryAgent->getBlock('wipon',[],[]);
-        $category = $this->queryAgent->getGroupFlat('catalog_block', 'category_2', [], []);
-        if ($wipon->course_id_field != 0) {
-            foreach ($this->course->course_group as $item) {
-                if ($item->id_field == $wipon->course_id_field) {
-                    $cost = $wipon->auto_cost_field * $item->course_field;
-                    $sale = $wipon->auto_sale_field * $item->course_field;
-                    $wipon->setField('auto_cost', $cost);
-                    $wipon->setField('auto_sale', $sale);
-                }
-            }
-        }
-        $test = $this->queryAgent->getGroupFlat('catalog_block', 'product', [], []);
-        foreach ($test as $item) {
-            if ($item->course_id_field != 0) {
-                foreach ($this->course->course_group as $item_c) {
-                    if ($item_c->id_field == $item->course_id_field) {
-                        $cost = $item->product_cost_field * $item_c->course_field;
-                        $sale = $item->product_sale_field * $item_c->course_field;
-                        $item->setField('product_cost', $cost);
-                        $item->setField('product_sale', $sale);
-                    }
-                }
-            }
-        }
+        $rating = $rating->getRatingView('/rosta');
 
-        // Генерация ссылки на товар исходя из принадлежности к группе
-        foreach ($test as $item) {
-            foreach ($category as $c_item) {
-                if ($item->owner_id_field == $c_item->id_field) {
-                    switch ($c_item->owner_id_field) {
-                        case 51:
-                            $item->setField('title', '/catalog/' . $c_item->slug_field . '/' . $item->slug_field);
-                            break;
-                        case 52:
-                            $item->setField('title', '/showcase/' . $c_item->slug_field . '/' . $item->slug_field);
-                            break;
-
-                        case 53:
-                            $item->setField('title', '/video/' . $c_item->slug_field . '/' . $item->slug_field);
-                            break;
-                        case 54:
-                            $item->setField('title', '/soft/' . $c_item->slug_field . '/' . $item->slug_field);
-                            break;
-                    }
-                }
-            }
-        }
-
-        return view('front.wipon.wipon', [
-            'wipon' => $wipon,
-            'prod' => $test,
+        return view('front.rosta.rosta', [
             'rating' => $rating
         ]);
     }

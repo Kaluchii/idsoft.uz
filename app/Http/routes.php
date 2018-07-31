@@ -12,50 +12,28 @@
 */
 
 Route::get('/', 'PageController@getIndex');
-Route::get('/test', 'PageController@getNew');
 Route::get('/product', 'CatalogController@getProduct');
 Route::get('/catalog', 'CatalogController@getCatalog');
 Route::get('/category', 'CatalogController@getCategory');
 
-
-
 Route::get('/automatic',         'CatalogContoroler@getAuto');
 Route::get('/automatic/{slug}',  'CatalogController@getAuto');
-
-
-
-Route::get('/accounting', 'CatalogController@getAccounting');
-Route::get('/accounting/{slug}', 'CatalogController@getTarif');
-
 
 Route::get('/clients', 								'PageController@getClients');
 Route::get('/clients/{slug}', 						'PageController@getClientItem');
 Route::get('/clients/{city}/{inst}',  				'PageController@getClientsFilter');
 
-
-
 Route::get('/catalog', 			                'CatalogController@getCatalog');
 Route::get('/catalog/{category}',               'CatalogController@getCategory');
-
-
-Route::get('/video', 			                'CatalogController@getVideoCategory');
-Route::get('/video/{category}',                 'CatalogController@getCategory');
-
-
-Route::get('/showcase', 		                'CatalogController@getShowcaseCategory');
-Route::get('/showcase/{category}',              'CatalogController@getCategory');
-
 
 Route::get('/soft',					            'CatalogController@getSoftCategory');
 Route::get('/soft/{category}',					'CatalogController@getCategory');
 
-Route::get('/wipon',					        'CatalogController@getWipon');
-
+Route::get('/rosta',					        'CatalogController@getRosta');
 
 Route::get('/catalog/{category}/{product}',		'CatalogController@getProduct');
-Route::get('/video/{category}/{product}',		'CatalogController@getProduct');
-Route::get('/showcase/{category}/{product}', 	'CatalogController@getProduct');
 Route::get('/soft/{category}/{product}', 	'CatalogController@getProduct');
+
 
 
 Route::post('/send-price',           'BackController@priceSend');
