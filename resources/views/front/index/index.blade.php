@@ -81,42 +81,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1-3">
-                        <a href="/wipon">
-                            <div class="wrap">
-                                <p class="card-title">{{$wipon->auto_title_field}}</p>
-                                <p class="card-text">{{$wipon->auto_description_field}}</p>
-                            </div>
-                            <img src="/images/{{$wipon->main_background_image->secondary_link}}" alt="{{$wipon->main_background_image->alt}}">
+                    <div class="col-3-3">
+                        <a class="rosta-link" href="/rosta">
+                            <img src="/img/rosta-logo.png" alt="" class="rosta-logo">
+                            <p class="about-rosta">Предельно простая и реактивно быстрая
+                                атоматизация торговли, логистики и склада</p>
                         </a>
-                    </div>
-                    <div class="col-1-3">
-                        <a href="/accounting">
-                            <div class="wrap">
-                                <p class="card-title">{{$buh->card_title_field}}</p>
-                                <p class="card-text">{{$buh->card_description_field}}</p>
-                            </div>
-                            <img src="/images/{{$buh->card_background_image->secondary_link}}" alt="{{$buh->card_background_image->alt}}">
-                        </a>
-                    </div>
-                    <div class="col-1-3">
-                        <div class="wrap">
-                            <p class="card-title">{{$video->category_name_field}}</p>
-                            <p class="card-text">{{$video->category_description_field}}</p>
-                        </div>
-                        <img src="/images/{{$video->card_background_image->secondary_link}}" alt="{{$video->card_background_image->alt}}">
-                        <div class="popup-form orange">
-                            <h3 class="popup-title">{{$video->category_name_field}}</h3>
-                            <div class="popup-items">
-                                <ul class="popup-list">
-                                    @foreach($m_popup[5] as $item_p)
-                                        <li class="item-popup">
-                                            <a href="/video/{{$item_p->slug_field}}">{{$item_p->category_name_field}}</a>
-                                        </li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

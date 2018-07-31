@@ -70,6 +70,18 @@
             max-width: 100%;
           }
         }
+
+        .col-3-3 {
+          .rosta-logo{
+            height: 40px;
+          }
+
+          .about-rosta{
+            max-width: 450px;
+            font-size: 18px;
+            line-height: 1.5;
+          }
+        }
       }
     }
   }
@@ -97,6 +109,24 @@
       font-size: 36px;
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .automatic-block-list{
+      .row{
+        .col-3-3 {
+          padding: 0 20px;
+          text-align: left;
+          background: url('/img/main-rosta-right.png') no-repeat ~'calc(100% - 30px)' 100%, linear-gradient(135deg, rgba(247,209,106,1) 0%, rgba(248,215,139,1) 100%);
+
+          .rosta-link{
+            align-items: flex-start;
+          }
+
+          .about-rosta{
+            margin-left: 0;
+          }
+        }
+      }
     }
   }
 }
@@ -195,6 +225,14 @@
             bottom: 0;
             object-position: 100%;
             max-width: 100%;
+          }
+        }
+        .col-3-3 {
+          text-align: left;
+          background: url('/img/main-rosta-right.png') no-repeat ~'calc(100% + 30px)' 100%, linear-gradient(135deg, rgba(247,209,106,1) 0%, rgba(248,215,139,1) 100%);
+
+          .about-rosta{
+            max-width: 270px;
           }
         }
       }
@@ -300,6 +338,18 @@
             bottom: 0;
             object-position: 100%;
             max-width: 100%;
+          }
+        }
+        .col-3-3 {
+          background-position: ~'calc(100% + 100px)' 100%, 0 0;
+
+          .rosta-logo{
+            height: 34px;
+          }
+
+          .about-rosta{
+            max-width: 60%;
+            font-size: 16px;
           }
         }
       }
