@@ -1,0 +1,86 @@
+.r-bundle{
+  padding-bottom: 40px;
+  border: 3px solid #f4f0ec;
+
+  &__name{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+    color: #6f747c;
+    text-align: center;
+  }
+
+  &__price{
+    font-size: 54px;
+    line-height: 1;
+    font-weight: bold;
+    color: #c7bdac;
+    text-align: center;
+
+    &--green{
+      color: #62bc31;
+    }
+
+    &--blue{
+      color: #427ed0;
+    }
+  }
+
+  &__list{
+    border-top: 3px solid rgba(244, 240, 236, 0.32);
+  }
+
+  &__list-item{
+    font-size: 18px;
+    line-height: 1.2;
+    color: #444b52;
+  }
+
+  &__link{
+    .link(#444b52, rgba(68, 75, 82, 0.2), #444b52, rgba(68, 75, 82, 0.2));
+  }
+
+  &__btn-wrap{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 55px;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+    border-radius: 7px;
+    background: #9e8d70;
+    color: #ffffff;
+
+    &--green{
+      background: rgba(85,175,49,1);
+      background: -moz-linear-gradient(top, rgba(85,175,49,1) 0%, rgba(126,213,50,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(85,175,49,1)), color-stop(100%, rgba(126,213,50,1)));
+      background: -webkit-linear-gradient(top, rgba(85,175,49,1) 0%, rgba(126,213,50,1) 100%);
+      background: -o-linear-gradient(top, rgba(85,175,49,1) 0%, rgba(126,213,50,1) 100%);
+      background: -ms-linear-gradient(top, rgba(85,175,49,1) 0%, rgba(126,213,50,1) 100%);
+      background: linear-gradient(to bottom, rgba(85,175,49,1) 0%, rgba(126,213,50,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55af31', endColorstr='#7ed532', GradientType=0 );
+      box-shadow: 0 10px 18px rgba(90, 128, 35, 0.63);
+    }
+
+    &--blue{
+      background: rgba(49,106,192,1);
+      background: -moz-linear-gradient(top, rgba(49,106,192,1) 0%, rgba(50,164,213,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(49,106,192,1)), color-stop(100%, rgba(50,164,213,1)));
+      background: -webkit-linear-gradient(top, rgba(49,106,192,1) 0%, rgba(50,164,213,1) 100%);
+      background: -o-linear-gradient(top, rgba(49,106,192,1) 0%, rgba(50,164,213,1) 100%);
+      background: -ms-linear-gradient(top, rgba(49,106,192,1) 0%, rgba(50,164,213,1) 100%);
+      background: linear-gradient(to bottom, rgba(49,106,192,1) 0%, rgba(50,164,213,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#316ac0', endColorstr='#32a4d5', GradientType=0 );
+      box-shadow: 0 5px 12px rgba(22, 37, 95, 0.63);
+    }}
+
+  &__btn-text{}
+}
