@@ -34,12 +34,12 @@
                         <li class="r-advantages__item">
                             <img src="/img/rosta_advantage_2.png" alt="" class="r-advantages__item-img">
                             <p class="r-advantages__item-title">Приватность данных</p>
-                            <p class="r-advantages__item-text">Все данные хранятся в зашифрованном виде на множестве серверах и не могут быть собранны единноразово.</p>
+                            <p class="r-advantages__item-text">Все данные хранятся в зашифрованном виде на множестве серверов и не могут быть собранны единоразово.</p>
                         </li>
                         <li class="r-advantages__item">
                             <img src="/img/rosta_advantage_3.png" alt="" class="r-advantages__item-img">
                             <p class="r-advantages__item-title">Быстрее аналогов</p>
-                            <p class="r-advantages__item-text">Благодаря оптимизации системы, программный комплекс роста работает в несколько раз быстрее аналогов.</p>
+                            <p class="r-advantages__item-text">Благодаря оптимизации системы, программный комплекс роста работает в&nbsp;несколько раз быстрее аналогов.</p>
                         </li>
                     </ul>
                 </div>
