@@ -19,7 +19,7 @@
                     </div>
                     <p class="r-automatization__text">Продукт доступен в нескольких ценовых вариантах, что позволяет пользоваться им как маленьким кафе, так и большим торговым центрам.</p>
                     <div class="r-automatization__btn-wrap">
-                        <a href="#" class="r-automatization__btn"><span class="r-automatization__btn-text">Выбрать план</span></a>
+                        <a href="#rosta-plans" class="r-automatization__btn js_scroll_to"><span class="r-automatization__btn-text">Выбрать план</span></a>
                     </div>
                 </div>
             </div>
@@ -56,12 +56,23 @@
                             <p class="r-product__text">С помощью Tradepoint можно проводить инвентаризацию товаров и принимать поступления, распечатывать штрих-коды и этикетки.</p>
                         </div>
                         <div class="r-product__images">
-                            <div class="r-product__slider"></div>
+                            <div class="r-product__slider js_rosta_slick">
+                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                            </div>
                         </div>
                     </div>
                     <div class="r-products__item r-product">
                         <div class="r-product__images">
-                            <div class="r-product__slider r-product__slider--brown"></div>
+                            <div class="r-product__slider r-product__slider--brown js_rosta_slick">
+                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                            </div>
                         </div>
                         <div class="r-product__text-block">
                             <img src="/img/rosta_backoffice.png" alt="Rosta Tradepoint" class="r-product__text-img">
@@ -72,23 +83,23 @@
                 </div>
             </div>
             <div class="rosta__prices r-prices">
-                <p class="r-prices__title">Цена роста</p>
+                <p class="r-prices__title" id="rosta-plans">Цена роста</p>
                 <div class="r-prices__container">
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Minimum</div>
-                        <div class="r-bundle__price">10 000 <span class="tenge">b</span></div>
+                        <div class="r-bundle__price">10 000 <span class="r-bundle__tenge tenge">h</span></div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
                             <li class="r-bundle__list-item">Бесплатный перенос данных</li>
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
                         <div class="r-bundle__btn-wrap">
-                            <a href="#" class="r-bundle__btn"><span class="r-bundle__btn-text">Купить</span></a>
+                            <a href="#order" class="r-bundle__btn js_buy_rosta"><span class="r-bundle__btn-text">Купить</span></a>
                         </div>
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Business</div>
-                        <div class="r-bundle__price r-bundle__price--green">329 999 <span class="tenge">b</span></div>
+                        <div class="r-bundle__price r-bundle__price--green">329 999 <span class="r-bundle__tenge tenge">h</span></div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
                             <li class="r-bundle__list-item">Моноблок IDSOFT ID5000</li>
@@ -100,16 +111,16 @@
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
                         <div class="r-bundle__btn-wrap">
-                            <a href="#" class="r-bundle__btn r-bundle__btn--green"><span class="r-bundle__btn-text">Купить</span></a>
+                            <a href="#order" class="r-bundle__btn r-bundle__btn--green js_buy_rosta"><span class="r-bundle__btn-text">Купить</span></a>
                         </div>
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Professional</div>
-                        <div class="r-bundle__price r-bundle__price--blue">759 999 <span class="tenge">b</span></div>
+                        <div class="r-bundle__price r-bundle__price--blue">759 999 <span class="r-bundle__tenge tenge">h</span></div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
-                            <li class="r-bundle__list-item">Моноблок <a href="#" class="r-bundle__link">IDSOFT AIONE</a></li>
-                            <li class="r-bundle__list-item">Сканер <a href="#" class="r-bundle__link">IDSOFT DS2208</a></li>
+                            <li class="r-bundle__list-item">Моноблок <a href="#" target="_blank" class="r-bundle__link">IDSOFT AIONE</a></li>
+                            <li class="r-bundle__list-item">Сканер <a href="#" target="_blank" class="r-bundle__link">IDSOFT DS2208</a></li>
                             <li class="r-bundle__list-item">Сканер IDSOFT ID2909</li>
                             <li class="r-bundle__list-item">2 x Принтер чеков</li>
                             <li class="r-bundle__list-item">2 x Принтер этикеток</li>
@@ -120,7 +131,7 @@
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
                         <div class="r-bundle__btn-wrap">
-                            <a href="#" class="r-bundle__btn r-bundle__btn--blue"><span class="r-bundle__btn-text">Купить</span></a>
+                            <a href="#order" class="r-bundle__btn r-bundle__btn--blue js_buy_rosta"><span class="r-bundle__btn-text">Купить</span></a>
                         </div>
                     </div>
                 </div>

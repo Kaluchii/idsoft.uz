@@ -1,11 +1,19 @@
 .r-automatization{
-  padding: 50px 95px 50px 100px;
+  height: 600px;
+  padding: 0 35px 0 45px;
 
   &__container{
     position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 1000px;
   }
 
   &__title{
+    margin-bottom: 0;
     font-size: 30px;
     line-height: 1.2;
     font-weight: bold;
@@ -13,8 +21,8 @@
   }
 
   &__text{
-    margin-top: 15px;
-    max-width: 455px;
+    margin-top: 10px;
+    max-width: 45%;
     font-size: 18px;
     line-height: 1.3888;
     color: #877f6b;
@@ -23,17 +31,22 @@
   &__img-wrap{
     position: absolute;
     right: 0;
+    max-width: 45%;
+    font-size: 0;
   }
 
   &__img{
+    max-width: 100%;
   }
 
   &__btn-wrap{
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   &__btn{
-    padding: 11px 45px;
+    position: relative;
+    top: 0;
+    padding: 11px 43px;
     font-size: 14px;
     line-height: 1;
     font-weight: bold;
@@ -47,6 +60,12 @@
     background: -ms-linear-gradient(top, rgba(74,146,228,1) 0%, rgba(74,185,232,1) 100%);
     background: linear-gradient(to bottom, rgba(74,146,228,1) 0%, rgba(74,185,232,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a92e4', endColorstr='#4ab9e8', GradientType=0 );
-    box-shadow: 0 6px 38px #295f9a;
+    box-shadow: 0 6px 38px rgba(41, 95, 154, 0.63);
+    transition: .2s;
+
+    &:hover{
+      top: -5px;
+      box-shadow: 0 2px 18px rgba(41, 95, 154, 0.63);
+    }
   }
 }

@@ -1,0 +1,28 @@
+@media screen and (max-width: 1024px) {
+  .r-product{
+    .slick-prev{
+      left: -45px;
+    }
+
+    .slick-next{
+      right: -45px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .r-product{
+    flex-direction: column;
+
+    &__images{
+      order: -1;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    &__text-block{
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+}

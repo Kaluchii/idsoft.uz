@@ -1,7 +1,14 @@
 .r-product{
-  &__images{}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__images{
+    width: 50%;
+  }
 
   &__slider{
+    border-radius: 8px;
     box-shadow: 0 11px 59px rgba(78, 123, 156, 0.63);
 
     &--brown{
@@ -9,7 +16,13 @@
     }
   }
 
+  &__slide{
+    border-radius: 8px;
+  }
+
   &__text-block{
+    width: 40%;
+    padding-bottom: 20px;
     font-size: 16px;
     line-height: 1.2;
     color: #65778a;
@@ -23,6 +36,35 @@
   &__text-img{}
 
   &__text{
-    margin-top: 5px;
+    margin-top: 10px;
+  }
+
+  .slick-list{
+    border-radius: 8px;
+  }
+
+  .slick-arrow{
+    height: 50px;
+    width: 50px;
+    opacity: .7;
+    transition: .3s;
+
+    &:hover{
+      opacity: 1;
+    }
+
+    &::before{
+      display: none;
+    }
+  }
+
+  .slick-prev{
+    left: -65px;
+    background: url("/img/slider_arrow_left.png") no-repeat center;
+  }
+
+  .slick-next{
+    right: -65px;
+    background: url("/img/slider_arrow_right.png") no-repeat center;
   }
 }

@@ -41,6 +41,26 @@ $(document).ready(function () {
         }
     });
 
+    //=============================================================
+    //======  Слайдер Rosta
+    //=============================================================
+
+    $('.js_rosta_slick').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 700
+    });
+
+    //=============================================================
+    //======  Скролл к элементу
+    //=============================================================
+
+    $('.js_scroll_to').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: $($(this).attr('href')).offset().top-50
+        }, 1000);
+    });
 
     //===============================================================
     //======= Обработчики для подсветки текущего пунтка меню ========
@@ -125,6 +145,23 @@ $(document).ready(function () {
         midClick: true
     }).on('click', function () {
         $('.popup-input[data-field-name="product"]').val($('.block-title').text()); // Добавление имени товара в заявку
+    });
+
+
+    //==== Форма "Заказать" Rosta
+    $('.js_buy_rosta').magnificPopup({
+        type: 'inline',
+        removalDelay: 500,
+        callbacks: {
+            beforeOpen: function () {
+                this.st.mainClass = 'mfp-zoom-in';
+                $('.popup-input[data-field-name=phone]').mask('+7(000)000-00-00');
+            },
+
+        },
+        midClick: true
+    }).on('click', function () {
+        $('.popup-input[data-field-name="product"]').val($(this).closest('.r-bundle').find('.r-bundle__name').text()); // Добавление имени товара в заявку
     });
 
 

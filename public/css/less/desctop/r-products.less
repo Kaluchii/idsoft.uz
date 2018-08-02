@@ -1,5 +1,10 @@
 .r-products{
-  &__container{}
+  padding: 55px 95px 0 105px;
+
+  &__container{
+    margin: 0 auto;
+    max-width: 1000px;
+  }
 
   &__title{
     font-size: 24px;
@@ -9,5 +14,11 @@
     text-align: center;
   }
 
-  &__item{}
+  &__item{
+    margin-top: 75px;
+
+    & + &{
+      margin-top: 155px;
+    }
+  }
 }

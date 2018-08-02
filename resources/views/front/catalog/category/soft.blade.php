@@ -15,6 +15,16 @@
             </div>
         </div>
         <div class="category-block video">
+            <div class="category-item">
+                <a href="/rosta">
+
+                    <div class="image-wrap">
+                        <img src="/img/rosta_card.jpg" alt="Rosta" class="static">
+                        <img src="/img/rosta_card.jpg" alt="Rosta" class="hover">
+                    </div>
+                    <p class="wrap"><span>Rosta</span></p>
+                </a>
+            </div>
             @foreach($category_1 as $item)
                 <div class="category-item">
                     <a href="/soft/{{$item->slug_field}}">
