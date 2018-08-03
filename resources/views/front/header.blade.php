@@ -132,34 +132,6 @@
                             @endif
                         @endforeach
                     </ul>
-                    <ul class="small-menu">
-                        <?php $i = 0  ?>
-                        @foreach($menu->menu_group as $item)
-                            <?php $i++ ?>
-                            @if ($i>3)
-                                <li class="menu-item">
-                                    @if($i == 4)
-                                        <a href="/wipon" class="all-site-menu" >Wipon Pro</a>
-                                    @elseif($i == 5)
-                                        <a href="{{$link[$i-1]}}" class="all-site-menu" >{{$item->menu_text_field}}</a>
-                                    @else
-                                        <a href="{{$link[$i-1]}}" class="all-site-menu" >{{$item->menu_text_field}}</a>
-                                        <div class="popup-form small">
-                                            <h3 class="popup-title"><a
-                                                        href="{{$link[$i-1]}}">{{$item->menu_text_field}}</a></h3>
-                                            <div class="col-1-col">
-                                                <div class="popup-items">
-                                                    <ul class="popup-list">
-                                                        @include('front.main_menu')
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endif
-                                </li>
-                            @endif
-                        @endforeach
-                    </ul>
                 </div>
             </div>
         </nav>

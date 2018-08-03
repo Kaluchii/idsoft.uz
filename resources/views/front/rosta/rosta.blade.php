@@ -57,21 +57,18 @@
                         </div>
                         <div class="r-product__images">
                             <div class="r-product__slider js_rosta_slick">
-                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                                <img src="/img/storekeeper.svg" alt="storekeeper" class="r-product__slide">
+                                <img src="/img/sales.svg" alt="sales" class="r-product__slide">
+                                <img src="/img/cashier.svg" alt="cashier" class="r-product__slide">
                             </div>
                         </div>
                     </div>
                     <div class="r-products__item r-product">
                         <div class="r-product__images">
                             <div class="r-product__slider r-product__slider--brown js_rosta_slick">
-                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_2.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
-                                <img src="/img/rosta_slide_1.jpg" alt="" class="r-product__slide">
+                                <img src="/img/dashboard.svg" alt="dashboard" class="r-product__slide">
+                                <img src="/img/analiz.svg" alt="analiz" class="r-product__slide">
+                                <img src="/img/invent.svg" alt="invent" class="r-product__slide">
                             </div>
                         </div>
                         <div class="r-product__text-block">
