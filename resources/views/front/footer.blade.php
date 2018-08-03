@@ -29,7 +29,7 @@
             <div class="left">
                 <p class="gray-text">{{$static->copyright_field}}</p>
             </div>
-            <div class="center">
+            {{--<div class="center">
                 <p class="gray-text">Мы в социальных сетях
                     <span class="big-wrap">
                     <span class="soc-link"><a href="https://vk.com/idsoftkz" rel="nofollow" target="_blank">ВКонтакте</a></span>
@@ -42,7 +42,7 @@
             </div>
             <div class="right">
                 <p class="gray-text">Сделано в <a href="http://interpro.kz" rel="nofollow" target="_blank">ИнтерПро</a></p>
-            </div>
+            </div>--}}
         </div>
     </footer>
     @yield('seotext')
