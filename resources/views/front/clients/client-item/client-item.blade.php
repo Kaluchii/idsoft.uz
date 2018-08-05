@@ -105,8 +105,8 @@
                                             </p>
                                             @if($item_prod->product_cost_field != '0' && $item_prod->product_cost_field != '')
                                                 <p class="cost">{{ number_format($item_prod->product_cost_field,0,'',' ') }}
-                                                    тг @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }}
-                                                        тг</span>@endif</p>
+                                                    сум @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }}
+                                                        сум</span>@endif</p>
                                             @endif
                                         </div>
                                     </a>

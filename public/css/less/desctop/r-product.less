@@ -19,6 +19,7 @@
 
   &__slide{
     border-radius: 8px;
+    opacity: 0;
     outline: none;
   }
 
@@ -68,5 +69,13 @@
   .slick-next{
     right: -65px;
     background: url("/img/slider_arrow_right.png") no-repeat center;
+  }
+}
+
+.slick-initialized{
+  .r-product{
+    &__slide{
+      opacity: 1;
+    }
   }
 }

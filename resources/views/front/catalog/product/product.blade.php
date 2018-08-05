@@ -71,10 +71,10 @@
                     <div class="row-1-2">
                         <div class="col-1-2">
                             @if($product->product_sale_field != 0)
-                                <p class="sale">{{ number_format($product->product_sale_field,0,'',' ') }} тг</p>
+                                <p class="sale">{{ number_format($product->product_sale_field,0,'',' ') }} сум</p>
                             @endif
                             @if($product->product_cost_field != '0' && $product->product_cost_field != '')
-                                <p class="cost">{{ number_format($product->product_cost_field,0,'',' ') }} тг</p>
+                                <p class="cost">{{ number_format($product->product_cost_field,0,'',' ') }} сум</p>
                             @else
                                 <p class="mes">Цену уточняйте</p>
                             @endif
@@ -170,7 +170,7 @@
                                             <span>{{$item_prod->product_name_field}}</span>
                                         </p>
                                         @if($item_prod->product_cost_field != '0' && $item_prod->product_cost_field != '')
-                                            <p class="cost">{{ number_format($item_prod->product_cost_field,0,'',' ') }} тг  @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }} тг</span>@endif</p>
+                                            <p class="cost">{{ number_format($item_prod->product_cost_field,0,'',' ') }} сум  @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }} сум</span>@endif</p>
                                         @endif
                                     </div>
                                 </a>

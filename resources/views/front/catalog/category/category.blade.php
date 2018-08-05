@@ -24,8 +24,8 @@
                                         <p class="about-product">{{$item->small_description_field}}</p>
                                         @if($item->product_cost_field != '0' && $item->product_cost_field != '')
                                             <p class="cost">{{ number_format($item->product_cost_field,0,'',' ') }}
-                                            тг @if($item->product_sale_field != 0)<span class="sale">{{ number_format($item->product_sale_field,0,'',' ') }}
-                                                тг</span>@endif</p>
+                                                сум @if($item->product_sale_field != 0)<span class="sale">{{ number_format($item->product_sale_field,0,'',' ') }}
+                                                    сум</span>@endif</p>
                                         @endif
                                     </div>
                                 </a>

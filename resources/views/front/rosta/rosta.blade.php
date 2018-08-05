@@ -84,7 +84,7 @@
                 <div class="r-prices__container">
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Minimum</div>
-                        <div class="r-bundle__price">10 000 <span class="r-bundle__tenge tenge">h</span></div>
+                        <div class="r-bundle__price">250 000<br>сум</div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
                             <li class="r-bundle__list-item">Бесплатный перенос данных</li>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Business</div>
-                        <div class="r-bundle__price r-bundle__price--green">329 999 <span class="r-bundle__tenge tenge">h</span></div>
+                        <div class="r-bundle__price r-bundle__price--green">9 329 999<br>сум</div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
                             <li class="r-bundle__list-item">Моноблок IDSOFT ID5000</li>
@@ -113,11 +113,12 @@
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Professional</div>
-                        <div class="r-bundle__price r-bundle__price--blue">759 999 <span class="r-bundle__tenge tenge">h</span></div>
+                        <div class="r-bundle__price r-bundle__price--blue">18 759 999<br>сум</div>
                         <ul class="r-bundle__list">
                             <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
-                            <li class="r-bundle__list-item">Моноблок <a href="#" target="_blank" class="r-bundle__link">IDSOFT AIONE</a></li>
-                            <li class="r-bundle__list-item">Сканер <a href="#" target="_blank" class="r-bundle__link">IDSOFT DS2208</a></li>
+                            {{--<li class="r-bundle__list-item">Моноблок <a href="#" target="_blank" class="r-bundle__link">IDSOFT AIONE</a></li>--}}
+                            <li class="r-bundle__list-item">Моноблок IDSOFT AIONE</li>
+                            <li class="r-bundle__list-item">Сканер IDSOFT DS2208</li>
                             <li class="r-bundle__list-item">Сканер IDSOFT ID2909</li>
                             <li class="r-bundle__list-item">2 x Принтер чеков</li>
                             <li class="r-bundle__list-item">2 x Принтер этикеток</li>

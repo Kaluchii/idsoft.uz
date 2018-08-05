@@ -334,8 +334,10 @@ class CatalogController extends Controller
     {
         $rating = new Rating();
         $rating = $rating->getRatingView('/rosta');
+        $wipon = $this->queryAgent->getBlock('wipon',[],[]);
 
         return view('front.rosta.rosta', [
+            'wipon' => $wipon,
             'rating' => $rating
         ]);
     }

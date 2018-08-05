@@ -90,7 +90,7 @@
                     @if($wipon->auto_sale_field > 0)
                         <span class="sale">{{ number_format($wipon->auto_sale_field,0,'',' ') }} тг</span>
                     @endif
-                    от {{ number_format($wipon->auto_cost_field,0,'',' ') }} тенге
+                    от {{ number_format($wipon->auto_cost_field,0,'',' ') }} сум
                 </h2>
             </div>
         @endif

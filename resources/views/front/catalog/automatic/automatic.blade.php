@@ -100,8 +100,8 @@
                                             </p>
                                             @if($item_prod->product_cost_field != '0' && $item_prod->product_cost_field != '')
                                             <p class="cost">{{ number_format($item_prod->product_cost_field,0,'',' ') }}
-                                                тг @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }}
-                                                    тг</span>@endif</p>
+                                                сум @if($item_prod->product_sale_field != 0)<span class="sale">{{ number_format($item_prod->product_sale_field,0,'',' ') }}
+                                                    сум</span>@endif</p>
                                              @endif
                                         </div>
                                     </a>
@@ -120,9 +120,9 @@
             <div class="cost-block">
                 <h2 class="cost">
                     @if($auto->auto_sale_field > 0)
-                        <span class="sale">{{ number_format($auto->auto_sale_field,0,'',' ') }} тг</span>
+                        <span class="sale">{{ number_format($auto->auto_sale_field,0,'',' ') }} сум</span>
                     @endif
-                    от {{ number_format($auto->auto_cost_field,0,'',' ') }} тенге
+                    от {{ number_format($auto->auto_cost_field,0,'',' ') }} сум
                 </h2>
             </div>
         @endif

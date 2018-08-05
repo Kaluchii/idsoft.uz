@@ -79,11 +79,11 @@
             <div class="tarif-block">
                 <div class="tarif-item" style="text-align: center">
                     <h4 class="tarif-name">для ИП</h4>
-                    <p class="price">от 20 000 тг</p>
+                    <p class="price">от 20 000 сум</p>
                 </div>
                 <div class="tarif-item" style="text-align: center">
                     <h4 class="tarif-name">для ТОО</h4>
-                    <p class="price">от 40 000 тг</p>
+                    <p class="price">от 40 000 сум</p>
                 </div>
 
                 {{--@foreach($account->tarif_category_group as $cat)

@@ -85,7 +85,7 @@
                         <a class="rosta-link" href="/rosta">
                             <img src="/img/rosta-logo.png" alt="" class="rosta-logo">
                             <p class="about-rosta">Предельно простая и реактивно быстрая
-                                атоматизация торговли, логистики и склада</p>
+                                автоматизация торговли, логистики и склада</p>
                         </a>
                     </div>
                 </div>
