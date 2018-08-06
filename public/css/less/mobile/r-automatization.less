@@ -22,10 +22,20 @@
       font-size: 16px;
     }
 
-    &__img-wrap{
+    &__illustration{
       position: static;
-      margin: 35px auto 15px;
-      min-width: 300px;
+      margin: 60px auto 40px;
+      min-width: 272px;
+      padding-right: 10px;
+    }
+
+    &__img-wrap{
+      &::before{
+        top: -10%;
+        left: -3.5%;
+        padding-left: 110%;
+        padding-top: 110%;
+      }
     }
   }
 }

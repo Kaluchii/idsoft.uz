@@ -13,9 +13,11 @@
             <div class="rosta__automatization r-automatization">
                 <div class="r-automatization__container">
                     <h1 class="r-automatization__title">Автоматизация бизнеса</h1>
-                    <p class="r-automatization__text">Rosta — программный комлекс для автоматизации бизнес-процессов: торговля, склад и логистика.</p>
-                    <div class="r-automatization__img-wrap">
-                        <img src="/img/rosta_illustration.png" alt="" class="r-automatization__img">
+                    <p class="r-automatization__text">Rosta — программный комплекс для автоматизации бизнес-процессов: торговля, склад и логистика.</p>
+                    <div class="r-automatization__illustration">
+                        <div class="r-automatization__img-wrap">
+                            <img src="/img/rosta_illustration-2x.png" alt="" class="r-automatization__img">
+                        </div>
                     </div>
                     <p class="r-automatization__text">Продукт доступен в нескольких ценовых вариантах, что позволяет пользоваться им как маленьким кафе, так и большим торговым центрам.</p>
                     <div class="r-automatization__btn-wrap">
@@ -83,10 +85,10 @@
                 <p class="r-prices__title" id="rosta-plans">Цена роста</p>
                 <div class="r-prices__container">
                     <div class="r-prices__bundle r-bundle">
-                        <div class="r-bundle__name">Minimum</div>
-                        <div class="r-bundle__price">250 000<br>сум</div>
+                        <div class="r-bundle__name">Start</div>
+                        <div class="r-bundle__price">250&nbsp;000<br>сум</div>
                         <ul class="r-bundle__list">
-                            <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
+                            <li class="r-bundle__list-item">ПО «<a href="https://rosta.kz/prices" target="_blank" class="r-bundle__link">Rosta Cloud</a>»</li>
                             <li class="r-bundle__list-item">Бесплатный перенос данных</li>
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
@@ -96,14 +98,14 @@
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Business</div>
-                        <div class="r-bundle__price r-bundle__price--green">9 329 999<br>сум</div>
+                        <div class="r-bundle__price r-bundle__price--green">8&nbsp;034&nbsp;000<br>сум</div>
                         <ul class="r-bundle__list">
-                            <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
-                            <li class="r-bundle__list-item">Моноблок IDSOFT ID5000</li>
-                            <li class="r-bundle__list-item">Сканер IDSOFT DS2208</li>
-                            <li class="r-bundle__list-item">Принтер чеков</li>
-                            <li class="r-bundle__list-item">Принтер этикеток</li>
-                            <li class="r-bundle__list-item">Денежный ящик</li>
+                            <li class="r-bundle__list-item">ПО «<a href="https://rosta.kz/prices" target="_blank" class="r-bundle__link">Rosta Cloud</a>»</li>
+                            <li class="r-bundle__list-item">Моноблок <a href="/catalog/pos-system/id5000" target="_blank" class="r-bundle__link">IDSOFT ID5000</a></li>
+                            <li class="r-bundle__list-item">Сканер <a href="/catalog/skaner-kod/idsoft-id2706" target="_blank" class="r-bundle__link">IDSOFT ID2706</a></li>
+                            <li class="r-bundle__list-item"><a href="/catalog/printery-chekovie/idsoft-id80use" target="_blank" class="r-bundle__link">Принтер чеков</a></li>
+                            <li class="r-bundle__list-item"><a href="/catalog/printer-etiketok/IDSOFTID60L" target="_blank" class="r-bundle__link">Принтер этикеток</a></li>
+                            <li class="r-bundle__list-item"><a href="/catalog/cash-box" target="_blank" class="r-bundle__link">Денежный ящик</a></li>
                             <li class="r-bundle__list-item">Бесплатный перенос данных</li>
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
@@ -113,18 +115,16 @@
                     </div>
                     <div class="r-prices__bundle r-bundle">
                         <div class="r-bundle__name">Professional</div>
-                        <div class="r-bundle__price r-bundle__price--blue">18 759 999<br>сум</div>
+                        <div class="r-bundle__price r-bundle__price--blue">25&nbsp;000&nbsp;000<br>сум</div>
                         <ul class="r-bundle__list">
-                            <li class="r-bundle__list-item">ПО «Rosta Cloud»</li>
-                            {{--<li class="r-bundle__list-item">Моноблок <a href="#" target="_blank" class="r-bundle__link">IDSOFT AIONE</a></li>--}}
-                            <li class="r-bundle__list-item">Моноблок IDSOFT AIONE</li>
-                            <li class="r-bundle__list-item">Сканер IDSOFT DS2208</li>
-                            <li class="r-bundle__list-item">Сканер IDSOFT ID2909</li>
-                            <li class="r-bundle__list-item">2 x Принтер чеков</li>
-                            <li class="r-bundle__list-item">2 x Принтер этикеток</li>
-                            <li class="r-bundle__list-item">ТСД Honeywell EDA50U</li>
-                            <li class="r-bundle__list-item">Весы Штрих-М</li>
-                            <li class="r-bundle__list-item">Денежный ящик</li>
+                            <li class="r-bundle__list-item">ПО «<a href="https://rosta.kz/prices" target="_blank" class="r-bundle__link">Rosta Cloud</a>»</li>
+                            <li class="r-bundle__list-item">2 x Моноблок <a href="/catalog/pos-system/id5000" target="_blank" class="r-bundle__link">IDSOFT ID5000</a></li>
+                            <li class="r-bundle__list-item">2 x Сканер <a href="/catalog/skaner-kod/idsoft-id2706" target="_blank" class="r-bundle__link">IDSOFT ID2706</a></li>
+                            <li class="r-bundle__list-item">2 x <a href="/catalog/printery-chekovie/idsoft-id80use" target="_blank" class="r-bundle__link">Принтер чеков</a></li>
+                            <li class="r-bundle__list-item">2 x <a href="/catalog/printer-etiketok/IDSOFTID60L" target="_blank" class="r-bundle__link">Принтер этикеток</a></li>
+                            <li class="r-bundle__list-item">2 x <a href="/catalog/cash-box" target="_blank" class="r-bundle__link">Денежный ящик</a></li>
+                            <li class="r-bundle__list-item"><a href="/catalog/vesy-torgovie/shtrih-print-m-v4.5" target="_blank" class="r-bundle__link">Весы Штрих-М</a></li>
+                            <li class="r-bundle__list-item">Терминал сбора данных <a href="/catalog/terminali-sbora-dannyh/eda50" target="_blank" class="r-bundle__link">EDA50</a></li>
                             <li class="r-bundle__list-item">Бесплатный перенос данных</li>
                             <li class="r-bundle__list-item">Резервное копирование</li>
                         </ul>
