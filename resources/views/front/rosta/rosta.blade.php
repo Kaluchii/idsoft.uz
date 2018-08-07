@@ -29,17 +29,17 @@
                 <div class="r-advantages__container">
                     <ul class="r-advantages__list">
                         <li class="r-advantages__item">
-                            <img src="/img/rosta_advantage_1.png" alt="" class="r-advantages__item-img">
+                            <img src="/img/rosta_advantage_1.svg" alt="" class="r-advantages__item-img">
                             <p class="r-advantages__item-title">Работает без интернета</p>
                             <p class="r-advantages__item-text">Программа не нуждается в постоянном подключении к интернету. Все ваши данные и операции хранятся локально.</p>
                         </li>
                         <li class="r-advantages__item">
-                            <img src="/img/rosta_advantage_2.png" alt="" class="r-advantages__item-img">
+                            <img src="/img/rosta_advantage_2.svg" alt="" class="r-advantages__item-img">
                             <p class="r-advantages__item-title">Приватность данных</p>
                             <p class="r-advantages__item-text">Все данные хранятся в зашифрованном виде на множестве серверов и не могут быть собранны единоразово.</p>
                         </li>
                         <li class="r-advantages__item">
-                            <img src="/img/rosta_advantage_3.png" alt="" class="r-advantages__item-img">
+                            <img src="/img/rosta_advantage_3.svg" alt="" class="r-advantages__item-img">
                             <p class="r-advantages__item-title">Быстрее аналогов</p>
                             <p class="r-advantages__item-text">Благодаря оптимизации системы, программный комплекс роста работает в&nbsp;несколько раз быстрее аналогов.</p>
                         </li>
@@ -51,7 +51,7 @@
                     <p class="r-products__title">Продукты роста</p>
                     <div class="r-products__item r-product">
                         <div class="r-product__text-block">
-                            <img src="/img/rosta_tradepoint.png" alt="Rosta Tradepoint" class="r-product__text-img">
+                            <img src="/img/rosta_tradepoint.svg" alt="Rosta Tradepoint" class="r-product__text-img r-product__text-img--tradepoint">
                             <p class="r-product__text"><b>Rosta Tradepoint</b> — предельно простая система для ведения продаж.  Интуитивно-понятный интерфейс
                                 не требует специального обучения, а настройка программы для ваших нужд занимает не более получаса.
                             </p>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="r-product__text-block">
-                            <img src="/img/rosta_backoffice.png" alt="Rosta Tradepoint" class="r-product__text-img">
+                            <img src="/img/rosta_backoffice.svg" alt="Rosta Tradepoint" class="r-product__text-img r-product__text-img--backoffice">
                             <p class="r-product__text"><b>Rosta Back Office</b> — интуитивно-понятная программа для администрирования бизнеса. Программа помогает в оптимизации и ускорению работы управляющего персонала предприятий.</p>
                             <p class="r-product__text">Ежедневные процессы занимают минимальное кол-во времени, делая ваши бизнес-процессы по-настоящему реактивными.</p>
                         </div>

@@ -24,6 +24,8 @@
   }
 
   &__text-block{
+    display: flex;
+    flex-direction: column;
     width: 40%;
     padding-bottom: 20px;
     font-size: 16px;
@@ -36,7 +38,20 @@
     }
   }
 
-  &__text-img{}
+  &__text-img{
+    user-select: none;
+    pointer-events: none;
+
+    &--tradepoint{
+      height: 39px;
+      width: 213px;
+    }
+
+    &--backoffice{
+      height: 38px;
+      width: 230px;
+    }
+  }
 
   &__text{
     margin-top: 10px;
