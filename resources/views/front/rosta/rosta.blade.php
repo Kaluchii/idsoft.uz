@@ -16,7 +16,7 @@
                     <p class="r-automatization__text">Rosta — программный комплекс для автоматизации бизнес-процессов: торговля, склад и логистика.</p>
                     <div class="r-automatization__illustration">
                         <div class="r-automatization__img-wrap">
-                            <img src="/img/rosta_illustration-2x.png" alt="" class="r-automatization__img">
+                            <img src="/img/rosta_illustration.png" srcset="/img/rosta_illustration-2x.png 2x" alt="" class="r-automatization__img">
                         </div>
                     </div>
                     <p class="r-automatization__text">Продукт доступен в нескольких ценовых вариантах, что позволяет пользоваться им как маленьким кафе, так и большим торговым центрам.</p>
