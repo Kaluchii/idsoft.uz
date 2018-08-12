@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="r-product__text-block">
-                            <img src="/img/rosta_backoffice.svg" alt="Rosta Tradepoint" class="r-product__text-img r-product__text-img--backoffice">
+                            <img src="/img/rosta_backoffice.svg" alt="Rosta Backoffice" class="r-product__text-img r-product__text-img--backoffice">
                             <p class="r-product__text"><b>Rosta Back Office</b> — интуитивно-понятная программа для администрирования бизнеса. Программа помогает в оптимизации и ускорению работы управляющего персонала предприятий.</p>
                             <p class="r-product__text">Ежедневные процессы занимают минимальное кол-во времени, делая ваши бизнес-процессы по-настоящему реактивными.</p>
                         </div>
