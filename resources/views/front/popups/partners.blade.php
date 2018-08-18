@@ -24,8 +24,8 @@
                         Контактный телефон
                     </label>
                     <input type="text" class="popup-input"
-                           data-mask="+7(000)000-00-00"
-                           placeholder="+7(___)___-__-__"
+                           data-mask="+99800 000-00-00"
+                           placeholder="+998__ ___-__-__"
                            data-require="true"
                            data-field-name="contact_phone"
                            data-field-type="string">

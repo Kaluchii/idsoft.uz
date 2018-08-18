@@ -138,7 +138,7 @@ $(document).ready(function () {
         callbacks: {
             beforeOpen: function () {
                 this.st.mainClass = 'mfp-zoom-in';
-                $('.popup-input[data-field-name=phone]').mask('+7(000)000-00-00');
+                $('.popup-input[data-field-name=phone]').mask('+99800 000-00-00');
             },
 
         },
@@ -155,7 +155,7 @@ $(document).ready(function () {
         callbacks: {
             beforeOpen: function () {
                 this.st.mainClass = 'mfp-zoom-in';
-                $('.popup-input[data-field-name=phone]').mask('+7(000)000-00-00');
+                $('.popup-input[data-field-name=phone]').mask('+99800 000-00-00');
             },
 
         },
